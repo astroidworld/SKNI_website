@@ -105,15 +105,18 @@
       list-style: none;      
   }
   nav ul a li{
-      display: inline-block;
-      margin-left:4rem;
-      font-size: 2rem;
-      color: black;
-      font-weight: bolder;
-      text-decoration: none;
-  }
-  nav ul a li:hover
-  {border-bottom: .3rem solid red;}
+    display: inline-block;
+    margin-left:4rem;     
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    border-bottom: .3rem solid rgba(255, 0, 0, 0);
+}
+nav ul a li:hover
+{
+  border-bottom: .3rem solid rgb(46, 46, 46);
+}
   
   nav a
   {
