@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html
+   { 
+     font-size: 62.5%; 
+    }
+
+  
+
+  body
+  {
+      background-color: rgb(82, 82, 82);
+  }
+  .container
+  {
+      max-width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 1rem;
+      background-color: white;
+      /* border-left: black .3rem solid;
+      border-right: black .3rem solid; */
+  }
+  header
+  {      
+    max-width: 100%;
+    min-height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 4rem;
+    padding-right: 3rem;
+  }
+  .contactinfo
+  {
+      display: flex;
+      width: 35%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .phntxt,.emltxt{
+    font-size: 1.5rem;
+  }
+  .logo
+  {
+      height: 7rem;
+      width: 7rem;
+  }
+  .heading
+  {
+      display: flex;
+      align-items: center;      
+  }
+  .heading1
+  {
+    margin-left: 1rem;
+  }
+  .contacticon
+  {
+    height: 3rem;
+    width: 3rem; 
+  }
+
+  .email,.phone
+  {
+    display: flex;
+    align-items: center;       
+  }
+  
+  .circle
+  {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: rgba(224, 224, 224, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  nav{
+      display: flex;
+      min-height: 5rem;          
+      background-color: rgba(210, 218, 226, 1);
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      position: sticky;
+      top: 0;      
+      border-bottom: black .2rem solid;
+      border-top: black .2rem solid;
+  }
+  nav ul{
+      list-style: none;      
+  }
+  nav ul a li{
+      display: inline-block;
+      margin-left:4rem;
+      font-size: 2rem;
+      color: black;
+      font-weight: bolder;
+      text-decoration: none;
+  }
+  nav ul a li:hover
+  {border-bottom: .3rem solid red;}
+  
+  nav a
+  {
+    height: 4rem;
+      width: 8rem;  
+  }
+  nav a button
+  {
+      margin: .3rem;
+      height: 3.6rem;
+      width: 8.0rem;
+      background-color: rgba(91, 91, 91, 1);
+      border-width: .3rem;
+      border-style: solid;
+      border-color: black;
+      border-radius: 1.4rem;
+      font-size: 1.7rem;
+      color: rgb(255, 255, 255);
+      font-weight: bolder;
+      cursor: pointer;
+  }
+  nav a button:hover
+  {
+    color: rgb(10, 10, 10);  
+    background-color: rgb(255, 255, 255);
+  }
+
+  /* Title SECTION */
+
+  .pagetitle
+  {
+      width: 100%;
+      padding-top: 2rem;
+      display: flex;
+      justify-content: center;
+  }
+
+  .backbox
+  {
+      height: 5rem;
+      width: 12rem;
+      background-color: rgba(195, 208, 221, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: black .2rem solid;
+  }
+  
+
+
+  /* MAIN SECTION */
+
+  main{
+    display: flex;
+    margin-top: 2rem;      
+    padding-left: 2rem;
+    padding-right: 2rem;           
+    align-items:flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mainTxt
+{
+    max-width: 57.6rem;
+    font-size: 1.92rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box1
+{
+    /* margin-left: 50rem; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.mainimg
+{
+  max-width: 100%;  
+  height: auto;    
+} 
+.maindivimg
+{
+    max-width: 60rem;
+}
+
+/* Text SECTION */
+
+.bigtxt
+{
+    max-width: 100%;
+    font-size: 1.92rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+section
+{
+    padding-left: 2rem;
+    padding-right: 2rem; 
+    padding-top: 1rem;
+}
+
+/* button part */
+.btnprt
+{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    flex-wrap: wrap;
+}
+
+  .btnprt button,form input
+  {
+      height: 4rem;
+      width: 15rem;
+      background-color: rgba(0, 125, 67, 1);
+      border-width: .3rem;
+      border-style: solid;
+      border-color: rgba(0, 62, 33, 1);
+      border-radius: 1.4rem;
+      font-size: 1.7rem;
+      color: rgb(255, 255, 255);
+      font-weight: bolder;
+      cursor: pointer; 
+      margin-top: 2.0rem;      
+  }
+
+  .btnprt button:hover
+  {
+    color: rgba(0, 125, 67, 1);  
+    background-color: rgb(255, 255, 255);
+  }
+
+
+/* FOOTER PART  */
+  
+  footer
+  {
+      max-width: 100%;
+      height: 7rem;
+      background-color: rgba(0, 0, 0, 0.836);
+      margin-top: 1rem;
+      display: flex;      
+      justify-content: center;
+      align-items: center;
+  }
+
+  footer div
+  {
+      color: white;
+      font-size: 1.5rem;
+  }
