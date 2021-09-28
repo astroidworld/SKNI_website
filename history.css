@@ -247,6 +247,11 @@ section
     background-color: rgb(255, 255, 255);
   }
 
+  form input:hover
+  {
+    color: rgba(0, 125, 67, 1);  
+    background-color: rgb(255, 255, 255);
+  }
 
 /* FOOTER PART  */
   
