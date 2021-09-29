@@ -79,7 +79,7 @@ img{
 {
   text-decoration: none;  
 }
-a form input
+form input
 {
   border:0;
   background: none;
@@ -95,7 +95,7 @@ a form input
   cursor: pointer;
   
 }
-a form input:hover
+form input:hover
 {
   background: #3498db;
 }
