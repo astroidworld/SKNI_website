@@ -285,6 +285,7 @@
       height: 17rem;
       border: rgb(110, 110, 110) .4rem solid;
       border-radius: 2rem; 
+      background-color: black;
   }
   .topic
   {
@@ -314,6 +315,9 @@
     background-color: rgb(255, 255, 255);
   }
 
+
+  /* footer part  */
+
   footer
   {
       max-width: 100%;
@@ -332,7 +336,7 @@
   }
 
 
-
+/* responsiveness */
   @media (min-width:320px)
   {
     html
